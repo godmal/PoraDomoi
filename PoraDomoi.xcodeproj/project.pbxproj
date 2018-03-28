@@ -18,6 +18,7 @@
 		0D055A6B2069A6AA002BCE6F /* DateUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D055A692069A6AA002BCE6F /* DateUtils.m */; };
 		0D055A6E2069A7AC002BCE6F /* PeopleStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D055A6C2069A7AC002BCE6F /* PeopleStore.m */; };
 		0D055A712069A7B4002BCE6F /* People.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D055A702069A7B4002BCE6F /* People.m */; };
+		0D855371206C387B001E1F40 /* ListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D855370206C387B001E1F40 /* ListTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,8 @@
 		0D055A6D2069A7AC002BCE6F /* PeopleStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeopleStore.h; sourceTree = "<group>"; };
 		0D055A6F2069A7B4002BCE6F /* People.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = People.h; sourceTree = "<group>"; };
 		0D055A702069A7B4002BCE6F /* People.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = People.m; sourceTree = "<group>"; };
+		0D85536F206C387B001E1F40 /* ListTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListTableViewController.h; sourceTree = "<group>"; };
+		0D855370206C387B001E1F40 /* ListTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				0D055A692069A6AA002BCE6F /* DateUtils.m */,
 				0D055A5A20698F8D002BCE6F /* MainViewController.h */,
 				0D055A5B20698F8D002BCE6F /* MainViewController.m */,
+				0D85536F206C387B001E1F40 /* ListTableViewController.h */,
+				0D855370206C387B001E1F40 /* ListTableViewController.m */,
 				0D055A4120698C47002BCE6F /* Main.storyboard */,
 				0D055A4420698C47002BCE6F /* Assets.xcassets */,
 				0D055A4620698C47002BCE6F /* LaunchScreen.storyboard */,
@@ -175,6 +180,7 @@
 				0D055A5320698C86002BCE6F /* Person.m in Sources */,
 				0D055A3D20698C47002BCE6F /* AppDelegate.m in Sources */,
 				0D055A5C20698F8D002BCE6F /* MainViewController.m in Sources */,
+				0D855371206C387B001E1F40 /* ListTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

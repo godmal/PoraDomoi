@@ -7,11 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "People.h"
+#import "Person.h"
+#import "DateUtils.h"
 
 @interface AddViewController : UIViewController
 
 @property (weak, nonatomic) IBOutlet UITextField *nameInput;
 @property (weak, nonatomic) IBOutlet UITextField *dateInput;
-@property (weak, nonatomic) IBOutlet UIButton *saveButton;
+@property (strong, nonatomic) People* model;
+@property (strong, nonatomic) Person* person;
 
 @end
