@@ -21,6 +21,7 @@
     [super viewDidLoad];
     PeopleStore* store = [[PeopleStore alloc] init];
     self.model = [[People alloc] initWithStore:store];
+    
     UIDatePicker *datePicker = [[UIDatePicker alloc]init];
     datePicker.minimumDate = [DateUtils minLimitDate];
     [datePicker setDate:[DateUtils now]];
@@ -38,6 +39,7 @@
 - (IBAction)saveButton:(id)sender {
     [self.model add:[[Person alloc] initWithName:self.nameInput.text andDate:_date andEndDate:nil]];
     NSLog(@"%lu", self.model.people.count);
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 

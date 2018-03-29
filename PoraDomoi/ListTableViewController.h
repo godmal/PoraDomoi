@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "People.h"
 #import "Person.h"
+#import "MainViewController.h"
 
 @interface ListTableViewController : UITableViewController
 

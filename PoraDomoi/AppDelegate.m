@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "People.h"
+#import "Person.h"
 
 @interface AppDelegate ()
 
@@ -17,7 +19,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    
+        PeopleStore * store = [[PeopleStore alloc] init];
+        People* model = [[People alloc] initWithStore:store];
+        [model removeAll];
     return YES;
 }
 

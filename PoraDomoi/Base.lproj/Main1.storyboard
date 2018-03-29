@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Main View Controller-->
+        <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="MainViewController" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -38,30 +38,46 @@
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="Item" id="hPV-NR-PYp"/>
                     </navigationItem>
-                    <connections>
-                        <outlet property="nameLabel" destination="3Ze-zT-cYK" id="VbY-Lc-YXq"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="193.125" y="28.52112676056338"/>
+            <point key="canvasLocation" x="163" y="822"/>
         </scene>
         <!--Kazarma-->
         <scene sceneID="lSS-vS-QWU">
             <objects>
-                <tableViewController id="BLz-I7-YAc" customClass="ListTableViewController" sceneMemberID="viewController">
+                <tableViewController id="BLz-I7-YAc" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="AEf-BX-8au">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" id="lps-W8-SeF">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" textLabel="rHu-kB-jNn" detailTextLabel="t5R-q2-qf0" style="IBUITableViewCellStyleValue1" id="lps-W8-SeF">
                                 <rect key="frame" x="0.0" y="28" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="lps-W8-SeF" id="UML-AJ-FtK">
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="rHu-kB-jNn">
+                                            <rect key="frame" x="16" y="12" width="33.5" height="20.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Detail" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="t5R-q2-qf0">
+                                            <rect key="frame" x="260" y="12" width="44" height="20.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="3Jp-uj-OVg"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -73,20 +89,19 @@
                     <navigationItem key="navigationItem" title="Kazarma" id="L0e-gz-fqf">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="mmf-6G-mPM">
                             <connections>
-                                <segue destination="bEz-nI-Ipm" kind="presentation" id="6pv-7G-3fb"/>
+                                <segue destination="bEz-nI-Ipm" kind="presentation" modalPresentationStyle="fullScreen" id="6pv-7G-3fb"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
-                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hMR-kL-oxg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="193" y="802"/>
+            <point key="canvasLocation" x="-759" y="822"/>
         </scene>
-        <!--Add View Controller-->
+        <!--View Controller-->
         <scene sceneID="Xgf-ey-WMu">
             <objects>
-                <viewController id="bEz-nI-Ipm" customClass="AddViewController" sceneMemberID="viewController">
+                <viewController id="bEz-nI-Ipm" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rkn-29-qe9">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -126,7 +141,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BcV-uW-GgZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1179" y="801"/>
+            <point key="canvasLocation" x="-759" y="1639"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="qb7-ck-ibk">
@@ -139,12 +154,15 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="nDp-gK-SuC"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Uxj-Uw-j9f"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5jg-eZ-sKo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-699" y="29"/>
+            <point key="canvasLocation" x="163" y="41"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="3Jp-uj-OVg"/>
+    </inferredMetricsTieBreakers>
 </document>

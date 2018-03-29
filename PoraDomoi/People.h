@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "PeopleStore.h"
 #import "Person.h"
-//#import "Underscore.h"
+#import "Underscore.h"
 #import "DateUtils.h"
 
 
@@ -26,7 +26,7 @@
 -(void) updatePersonBy:(NSUInteger) personID with:(Person*) updatedPerson;
 -(void) removePerson:(NSUInteger) personID;
 -(void) removeAll;
-//-(NSArray*) getAllNames;
-//-(NSArray*) getAllDatesStrings;
+-(NSArray*) getAllNames;
+-(NSArray*) getAllDatesStrings;
 
 @end

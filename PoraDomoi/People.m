@@ -61,16 +61,16 @@
     [self notify];
 }
 
-//-(NSArray*) getAllNames {
-//    return _.arrayMap(self.people, ^(Person* person) {
-//        return person.name;
-//    });
-//}
-//
-//-(NSArray*) getAllDatesStrings {
-//    return _.arrayMap(self.people, ^(Person* person) {
-//        return [DateUtils convertDateToString:person.date];
-//    });
-//}
+-(NSArray*) getAllNames {
+    return _.arrayMap(self.people, ^(Person* person) {
+        return person.name;
+    });
+}
+
+-(NSArray*) getAllDatesStrings {
+    return _.arrayMap(self.people, ^(Person* person) {
+        return [DateUtils convertDateToString:person.date];
+    });
+}
 
 @end

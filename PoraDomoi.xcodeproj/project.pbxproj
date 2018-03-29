@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0D055A3D20698C47002BCE6F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D055A3C20698C47002BCE6F /* AppDelegate.m */; };
-		0D055A4320698C47002BCE6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D055A4120698C47002BCE6F /* Main.storyboard */; };
+		0D055A4320698C47002BCE6F /* Main1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D055A4120698C47002BCE6F /* Main1.storyboard */; };
 		0D055A4520698C47002BCE6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D055A4420698C47002BCE6F /* Assets.xcassets */; };
 		0D055A4820698C47002BCE6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D055A4620698C47002BCE6F /* LaunchScreen.storyboard */; };
 		0D055A4B20698C47002BCE6F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D055A4A20698C47002BCE6F /* main.m */; };
@@ -19,13 +19,15 @@
 		0D055A6E2069A7AC002BCE6F /* PeopleStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D055A6C2069A7AC002BCE6F /* PeopleStore.m */; };
 		0D055A712069A7B4002BCE6F /* People.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D055A702069A7B4002BCE6F /* People.m */; };
 		0D855371206C387B001E1F40 /* ListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D855370206C387B001E1F40 /* ListTableViewController.m */; };
+		0D855373206C52E0001E1F40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D855372206C52E0001E1F40 /* Main.storyboard */; };
+		177BA3BC9CED70C5BD15EAA8 /* libPods-PoraDomoi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EA7AD1AD18B41AE40CFA821 /* libPods-PoraDomoi.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0D055A3820698C47002BCE6F /* PoraDomoi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PoraDomoi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D055A3B20698C47002BCE6F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0D055A3C20698C47002BCE6F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0D055A4220698C47002BCE6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0D055A4220698C47002BCE6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main1.storyboard; sourceTree = "<group>"; };
 		0D055A4420698C47002BCE6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D055A4720698C47002BCE6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0D055A4920698C47002BCE6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -44,6 +46,10 @@
 		0D055A702069A7B4002BCE6F /* People.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = People.m; sourceTree = "<group>"; };
 		0D85536F206C387B001E1F40 /* ListTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListTableViewController.h; sourceTree = "<group>"; };
 		0D855370206C387B001E1F40 /* ListTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListTableViewController.m; sourceTree = "<group>"; };
+		0D855372206C52E0001E1F40 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		2B1A860CBAD1718FA2180BAE /* Pods-PoraDomoi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PoraDomoi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PoraDomoi/Pods-PoraDomoi.debug.xcconfig"; sourceTree = "<group>"; };
+		8B45F6D9EB5A61FEBCEF3377 /* Pods-PoraDomoi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PoraDomoi.release.xcconfig"; path = "Pods/Target Support Files/Pods-PoraDomoi/Pods-PoraDomoi.release.xcconfig"; sourceTree = "<group>"; };
+		9EA7AD1AD18B41AE40CFA821 /* libPods-PoraDomoi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PoraDomoi.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				177BA3BC9CED70C5BD15EAA8 /* libPods-PoraDomoi.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +69,8 @@
 			children = (
 				0D055A3A20698C47002BCE6F /* PoraDomoi */,
 				0D055A3920698C47002BCE6F /* Products */,
+				2C2A4CBD8FB60D21A9ABC787 /* Pods */,
+				595E87F839544C1DFDF8F239 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,7 +99,8 @@
 				0D055A5B20698F8D002BCE6F /* MainViewController.m */,
 				0D85536F206C387B001E1F40 /* ListTableViewController.h */,
 				0D855370206C387B001E1F40 /* ListTableViewController.m */,
-				0D055A4120698C47002BCE6F /* Main.storyboard */,
+				0D055A4120698C47002BCE6F /* Main1.storyboard */,
+				0D855372206C52E0001E1F40 /* Main.storyboard */,
 				0D055A4420698C47002BCE6F /* Assets.xcassets */,
 				0D055A4620698C47002BCE6F /* LaunchScreen.storyboard */,
 				0D055A4920698C47002BCE6F /* Info.plist */,
@@ -101,6 +111,23 @@
 			path = PoraDomoi;
 			sourceTree = "<group>";
 		};
+		2C2A4CBD8FB60D21A9ABC787 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2B1A860CBAD1718FA2180BAE /* Pods-PoraDomoi.debug.xcconfig */,
+				8B45F6D9EB5A61FEBCEF3377 /* Pods-PoraDomoi.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		595E87F839544C1DFDF8F239 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9EA7AD1AD18B41AE40CFA821 /* libPods-PoraDomoi.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -108,9 +135,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0D055A4E20698C47002BCE6F /* Build configuration list for PBXNativeTarget "PoraDomoi" */;
 			buildPhases = (
+				5261D1425F9BBEBA78E6D071 /* [CP] Check Pods Manifest.lock */,
 				0D055A3420698C47002BCE6F /* Sources */,
 				0D055A3520698C47002BCE6F /* Frameworks */,
 				0D055A3620698C47002BCE6F /* Resources */,
+				5EA2D49037FB9396932CF626 /* [CP] Embed Pods Frameworks */,
+				59F40227E8BE2F1279ED1772 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -161,11 +191,63 @@
 			files = (
 				0D055A4820698C47002BCE6F /* LaunchScreen.storyboard in Resources */,
 				0D055A4520698C47002BCE6F /* Assets.xcassets in Resources */,
-				0D055A4320698C47002BCE6F /* Main.storyboard in Resources */,
+				0D055A4320698C47002BCE6F /* Main1.storyboard in Resources */,
+				0D855373206C52E0001E1F40 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5261D1425F9BBEBA78E6D071 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PoraDomoi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59F40227E8BE2F1279ED1772 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PoraDomoi/Pods-PoraDomoi-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5EA2D49037FB9396932CF626 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PoraDomoi/Pods-PoraDomoi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0D055A3420698C47002BCE6F /* Sources */ = {
@@ -187,12 +269,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0D055A4120698C47002BCE6F /* Main.storyboard */ = {
+		0D055A4120698C47002BCE6F /* Main1.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				0D055A4220698C47002BCE6F /* Base */,
 			);
-			name = Main.storyboard;
+			name = Main1.storyboard;
 			sourceTree = "<group>";
 		};
 		0D055A4620698C47002BCE6F /* LaunchScreen.storyboard */ = {
@@ -312,6 +394,7 @@
 		};
 		0D055A4F20698C47002BCE6F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B1A860CBAD1718FA2180BAE /* Pods-PoraDomoi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -326,6 +409,7 @@
 		};
 		0D055A5020698C47002BCE6F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B45F6D9EB5A61FEBCEF3377 /* Pods-PoraDomoi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
